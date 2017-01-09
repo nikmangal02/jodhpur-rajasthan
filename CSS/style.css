@@ -1,0 +1,127 @@
+*
+{
+    box-sizing: border-box;
+}
+h1,h3
+{
+    font-family: roboto-light;
+    text-height: 44px;
+}
+p{
+    font-size: 17px;
+    font-style: normal;
+    padding-left: 160px;
+    padding-right: 160px;
+    line-height: 26px;
+    color: #878787;
+    padding-bottom: -80px;
+}
+hr
+{
+    width:500px;
+    border-color: #333333;
+}
+/*navbar classes and id's*/
+.navbar /* Remove the navbar's default margin-bottom and rounded borders */
+{
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.nav-colors
+{
+    background-color: white;
+    color: #333333;
+}
+.affix
+{
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.affix + .container-fluid
+{
+    padding-top: 70px;
+}
+/*carousel classes and id's*/
+.carousel-inner img
+{
+    /*width: 1270px;*/
+    max-width: 100%;
+    height: 500px;
+}
+/*Love jodhpur*/
+.icon
+{
+    color: #E2194B;
+}
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px)
+{
+    .carousel-caption
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width:350px)
+{
+    .responsive
+    {
+        max-width: 60%;
+        align:middle;
+        height: auto;
+    }
+}
+@media (min-width:400px) and (max-width:700px)
+{
+    .responsive
+    {
+        max-width: 80%;
+        align:middle;
+        height: auto;
+    }
+}
+.jodhpur-content
+{
+    width: 100%;
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 80px;
+}
+/*discover jodhpur*/
+.link-shadow
+{
+    background-color: white;
+    button-shadow:5px 5px 5px red;
+    color:  #6666ff;
+    backface-visibility: hidden;
+}
+.small-horizontal-line
+{
+    width: 80px;
+    border-color: #cccccc;
+}
+.red-horizontal-line
+{
+    width: 20px;
+
+    border: solid 2px #FF6E6E;
+}
+.discover-jodhpur
+{
+    color: #000;
+    font-family: roboto-medium;
+    font-family: roboto-regular;
+    text-align: center;
+}
+/*footer*/
+footer /* Add a gray background color and some padding to the footer */
+{
+    background-color: white;
+    padding: 25px;
+}
+.footer
+{
+    color: #ff0000;
+    padding-left: 40px;
+    font-size: small;
+}
